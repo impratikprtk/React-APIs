@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 5% 0 0;
+    background-image:url('http://i.imgur.com/eVzOF6a.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+.whitetext{
+    color: cornsilk;
+}
+.acme{
+    font-family: Acme, cursive;
+}
+.Merriweather{
+   font-family: Merriweather;
+}
+.galada{
+    font-family: Galada;
+}
+.indieflower{
+    font-family:"Indie Flower", cursive;
+}
+/*navbar css starts*/
+#navbar {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.5s ease;
+    text-align: center;
+    overflow: hidden;
+}
+.flright{
+    float: right;
+    padding: 5px;
+    margin: 5px;
+}
+.Sacramento{
+   font-family: Sacramento;
+    font-size: xx-large;
+    color: #FF3300;
+    text-shadow: 0 -10px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+    position: relative;
+    left: 2em;
+    overflow: visible;
+}
+/*navbar css ends*/
+
+/*login css starts*/
+.centerdiv{
+    margin:auto;
+    width: 40%;
+    background-color: transparent;
+    border: solid;
+    border-collapse: separate;
+    border-width: 4px;
+    border-color: blueviolet;
+    border-radius: 10px;
+    padding: 5%;
+    display: block;
+}
+.centerdivwithoutborder{
+    margin: 0 auto;
+    width: 100%;
+    background-color: transparent;
+    padding: 5px;
+    display: block;
+    border-collapse: separate;
+}
+/*login css ends*/
+
+.inputbox{
+    opacity: 0.6;
+    background: transparent;
+    border-color: blueviolet;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 5px;
+    color: white;
+}
+.textalign{
+    text-align: center;
+    margin: 0 auto;
+}
+.innnerbox{
+    width:300px; /* or whatever width you want. */
+    max-width:300px; /* or whatever width you want. */
+    display: inline-block;
+    margin: 0 auto;
+    height:100px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.innnerbox:hover{
+    background-color: aqua;
+    color: maroon;
+}
+.innnerbox2{
+    width:300px; /* or whatever width you want. */
+    max-width:300px; /* or whatever width you want. */
+    display: inline-block;
+    margin: 0 auto;
+    height:100px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+.innnerbox2:hover{
+    background-color: aqua;
+   color: brown;
+}
+.wid300{
+    width: 300px;
+    margin: 0 auto;
+}
+.img-circle{
+    width: 100px;
+    height: 100px;
+}
