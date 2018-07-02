@@ -2,7 +2,7 @@
   "name": "almostthere",
   "version": "0.1.0",
   "private": true,
-  "homeapge": "https://impratikprtk.github.io/almostthere/",
+  "homeapge": "https://impratikprtk.github.io/hello/",
   "dependencies": {
     "firebase": "^5.1.0",
     "gh-pages": "^1.2.0",
